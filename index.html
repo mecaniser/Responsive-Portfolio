@@ -1,52 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Bio</title>
-        <!-- <link rel="stylesheet" href="reset.css"> -->
-        <link rel="stylesheet" href="assets/css/stylemain.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bio</title>
+    <link rel="stylesheet" href="assets/css/reset.css">  
+    <link rel="stylesheet" href="assets/css/stylemain.css">
+</head>
     <body>
-        <header class="box-hdr"> <!--Header Wrapper Start -->
-                <div class="box-main">
-                    <div class="box-name">
-                        <a href="./index.html"><h1> Sergio Burca</h1></a>
-                    </div>                
-                    <div class="box-nav rcorners3">
-                            <a href="about.html" >About</a>
-                            <a href="#">Portofolio</a>
-                            <a href="./contact.html" >Contact</a>
-                    </div>
-                </div>
-        </header> <!--Header Wrapper Ends-->
-
-        <div class="box-cntnr-area "> <!--Body Container Start-->
-                <div class="box-left rcorners2">
-                    <div class="box-txt">
-                        <h2>About Me</h2>
-                        <hr>
-                        <div><img src="assets/images/Mypic.jpg" width="300" height="300" alt="temporary pic"></div>
-                        <p>For the past 5 years I was an Automotive enthusiast. I am fascinated by the engineering minds that build every detail in our modern cars and have them work together for years. An engine or a car seat, the transmission or the windshield wipers, everything was designed to serve us. 
-                            </p>
-                            <p>Fortunately, today we have way more engineers which will build not only cars but also small apps on our phones to help us perform more efficient. I do have my very strong intention to become one of them and help build a better future for all of us!</p>
-                    </div>
-                </div>
-                <div  class="box-right rcorners1 ">
-                    <div class="inside">
-                        <h3>How we can get in touch?</h3>
-                        <hr>
-                        <div><a href="https://github.com/mecaniser" target="_blank"><img class="imgpng" src="assets/images/github.png" alt="GitHub"></a></div> 
-                        <div><a href="https://linkedin.com/in/srgio36" target="_blank"><img class="imgpng" src="assets/images/linkedin.png" alt="LinkedIn"></a> </div>
-                        <div><a href="https://stackoverflow.com/users/9324918/sergio" target="_blank"><img class="imgpng" src="assets/images/stackovr.png" alt="SlackOverflow"></a></div>
-                    </div>
-                </div>
-        </div><!--Body Container End-->  
+        <header> <!--Header Start -->
+            <div class="box-cntnr">
+                <a href="./index.html"><h1> Sergio Burca</h1></a>             
+                <nav class="box-nav rcorners3">
+                    <a href="about.html" >About</a>
+                    <a href="portofolio.html">Portofolio</a>
+                    <a href="contact.html" >Contact</a>
+                </nav>
+            </div>
+        </header> <!--Header End-->
+            <div id="cntnr-area" class="box-cntnr-area ">
+                <section class="box-left rcorners2">
+                    <h2>About Me</h2>
+                    <img id="mypic" src="assets/images/Mypic.jpg" width="300" height="300" alt="temporary pic">
+                    <p>For the past 5 years I was an Automotive enthusiast. I am fascinated by the engineering minds that build every detail in our modern cars and have them work together for years. An engine or a car seat, the transmission or the windshield wipers, everything was designed to serve us. 
+                    </p>
+                    <p>Fortunately, today we have way more engineers which will build not only cars but also small apps on our phones to help us perform more efficient. I do have my very strong intention to become one of them and help build a better future for all of us!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugiat unde id error doloribus neque ut, minima voluptates eum laboriosam tempora reprehenderit nisi mollitia, rem, aperiam expedita inventore! Officia, labore.</p>
+                </section>
+                <aside class="box-right rcorners1 ">
+                        <h3>Contact me</h3>
+                        <a href="https://github.com/mecaniser" target="_blank"><img class="imgpng" src="assets/images/github.png" alt="GitHub"></a>
+                        <a href="https://linkedin.com/in/srgio36" target="_blank"><img class="imgpng" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+                        <a href="https://stackoverflow.com/users/9324918/sergio" target="_blank"><img class="imgpng" src="assets/images/stackovr.png" alt="SlackOverflow"></a>
+                </aside>
+            </div>
 
         <footer> <!--Footer starts -->
-            <h3>© Copyright 2016 Sergio Burca</h3>
+            <h6>&COPY; Copyright 2016 Sergio Burca</h6>
         </footer>  <!--Footer end-->
-        
     </body>
 </html>
